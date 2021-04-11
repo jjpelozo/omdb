@@ -1,0 +1,23 @@
+.btnHeader {
+  color: #fff;
+  background-color: #e74c3c;
+  outline: none;
+  border: 0;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.botoneraHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
