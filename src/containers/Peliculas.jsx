@@ -44,8 +44,7 @@ export default function Peliculas() {
             <div key={pelicula.imdbID}>
               <Link to={`/movies/${pelicula.imdbID}`} >
                 <img src={pelicula.Poster} alt="" />
-                {/*     <h2>{pelicula.Year}</h2>
-              <h2>{pelicula.Type}</h2> */}
+        
               </Link>
             </div>
           ))}

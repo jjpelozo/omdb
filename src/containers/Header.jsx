@@ -80,15 +80,6 @@ export default function Header() {
       </div>
     </div>
 
-          
-     {/*   
-
-        <Link to={`/login`}>
-          <button className="btnHeader">Login</button>
-        </Link>
-        <Link to={`/register`}>
-          <button className="btnHeader">Register</button>
-        </Link> */}
       </div>
     </div>
   );

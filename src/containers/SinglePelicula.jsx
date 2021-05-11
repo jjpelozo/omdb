@@ -17,7 +17,7 @@ export default function SinglePelicula(props) {
 
 
   useEffect(() => {
-    //console.log("peliculasssssssssssoooooooolllllllaaaaa", singlePelicula);
+  
     return axios
       .get(`http://www.omdbapi.com/?apikey=20dac387&i=${id}`)
       .then((pelicula) => {
@@ -26,18 +26,6 @@ export default function SinglePelicula(props) {
       });
   }, []);
 
-  /* function handleSubmit() {
-    return axios
-      .get(`http://www.omdbapi.com/?apikey=20dac387&i=${id}`)
-      .then((pelicula) => {
-          console.log(pelicula)
-        setSinglePelicula(pelicula.data);
-      });
-  } */
-
-  /*  http://www.omdbapi.com/?apikey=20dac387&i=${id} 
-        http://www.omdbapi.com/?apikey=20dac387&i=${id} 
- */
 
   return (
     <div className= "box-pelicula">

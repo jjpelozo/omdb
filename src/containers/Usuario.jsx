@@ -6,7 +6,7 @@ import { UserContext } from "../index";
 export default function SinglePelicula() {
   const { user, setUser } = useContext(UserContext);
   useEffect(() => {
-    //console.log("peliculasssssssssssoooooooolllllllaaaaa", singlePelicula);
+  
   }, []);
 
 
